@@ -1,20 +1,20 @@
+Install Git SCM:
+    https://git-scm.com/
+
+Check Git Version:
+
+    git -v
+
+Set up user details (run these once per system/repo).
+
+    git config --global user.name "Your Name"
+    git config --global user.email "your-email@example.com"
+
+ Check current Git configuration:
+
+    git config --list
+
 
 Initialize a new repository in a directory:
 
-git init
-
-
-To see status of file
-
-git status
-
-
-To add file for tracking 
-
-git add .
-
-
-git commit -m "message"
-
-
-git log
+    git init
