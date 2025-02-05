@@ -61,3 +61,17 @@ Viewing Commit History
         git diff
     View changes in staged files:
         git diff --staged
+
+Working with Branches
+    View all branches:
+        git branch 
+    Create a new branch:
+        git branch <new-branch-name>
+    Switch to another branch:
+        git checkout <branch-name>
+    Create and switch to a new branch:
+        git checkout -b <new-branch-name>
+    Merge a branch into the current branch:
+        git merge <branch-name>
+    Delete a branch:
+        git branch -d <branch-name>
