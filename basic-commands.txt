@@ -34,3 +34,18 @@ Staging & Committing Changes
 
         git commit -m "your message"
 
+
+
+Add SSH key to github.com
+
+Before generating a new SSH key, check if you already have one:
+
+    ls -al ~/.ssh
+
+ssh-keygen -t ed25519 -C "your-email@example.com"
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_ed25519
+
+cat ~/.ssh/id_ed25519.pub
