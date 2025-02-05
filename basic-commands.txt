@@ -63,7 +63,6 @@ Viewing Commit History
         git diff --staged
 
 Working with Branches
-
     View all branches:
         git branch 
     Create a new branch:
